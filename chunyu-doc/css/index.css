@@ -1,0 +1,393 @@
+html,body{
+	font-size: 36px;
+}
+html,body,p,h6,ul,li{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f1f1f1;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+ul{
+	list-style: none;
+}
+.hide{
+	display: none;
+}
+.clearfix::after{
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+.download{
+	line-height: 1.06667rem;
+    overflow: hidden;
+    background-color: #656565;
+    padding-left: 0.48rem;
+    color: #fff;
+    font-size: 0rem;
+}
+.no-down{
+	display: inline-block;
+    width: 0.58667rem;
+    height: 0.58667rem;
+    margin-right: 0.24rem;
+    vertical-align: middle;
+    background: url("../image/下载.png");
+    background-repeat: no-repeat;
+    background-size: 0.58667rem auto;
+}
+.word{
+	display: inline-block;
+    vertical-align: middle;
+    padding-left: 0.8rem;
+    font-size: 0.32rem;
+    background: url("../image/下载 (1).png");
+    background-position:  left center;
+    background-repeat: no-repeat; 
+    background-size: auto 0.61333rem;
+}
+.download a{
+	display: block;
+    float: right;
+    width: 2.13333rem;
+    font-size: 0.32rem;
+    text-align: center;
+    background-color: #37cf6b;
+    color: #fff;
+}
+.head{
+	border-bottom: 1px solid #f4f4f4;
+    /*padding-left: 0;*/
+    background-color: #fff;
+}
+.head-top{
+	position: relative;
+    padding: 0.4rem 0.32rem 0.4rem 0;
+    height: 0.799rem;
+    text-align: center;
+    margin: 0;
+}
+.head-top img{
+	display: block;
+	height: 0.64rem;
+    width: 2.8rem;
+    margin: 0 auto;
+    margin-top: 0.16rem;
+}
+.user{
+	position: absolute;
+    width: 0.64rem;
+    height: 0.64rem;
+    right: 0.32rem;
+    top: 0.53333rem;
+    background: url("../image/下载 (2).png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: .64rem auto;
+}
+.search{
+	height: 0.8rem;
+    position: relative;
+    overflow: hidden;
+    padding: 0.18667rem 0.21333rem;
+    /*margin: 0;*/
+    background-color: #fff;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+}
+.search input{
+	display: block;
+	vertical-align: middle;
+	width: 100%;
+    font-size: .37333rem;
+    color: #666;
+    border: 0;
+    outline: none;
+    /*margin-left: 0.4rem;*/
+    background-color: #F4F4F4;
+    height: 0.74667rem;
+    border-radius: .10667rem;
+    margin-right: 0.21333rem; 
+}
+.search button{
+	position: absolute;
+    top: 50%;
+    margin-top: -.4rem;
+    height: .8rem;
+    width: .66667rem;
+    right: .4rem;
+    background: url("../image/下载 (3).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: .45333rem .45333rem;
+    border: 0;
+}
+.question{
+	position: relative;
+	padding: .53333rem .4rem .53333rem 1.86667rem;
+	display: block;
+	background: url("../image/下载 (4).png");
+	background-repeat: no-repeat;
+	background-position: .53333rem center;
+    background-size: .98667rem auto;
+}
+.question h6{
+	font-size: .58667rem;
+    font-weight: 400;
+    margin-bottom: -0.72rem;
+    color: #323232;
+}
+.tip{	
+	margin-top: .21333rem;
+    font-size: .32rem;
+    color: #999;
+}
+.next-tip{
+	position: absolute;
+    top: 50%;
+    right: .4rem;
+    width: .16rem;
+    height: .26667rem;
+    background: url("../image/下载 (5).png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+}
+.lookfor{
+	overflow: hidden;
+    text-align: center;
+    /*border-top: 1px solid #f4f4f4;*/
+}
+.sick-doc, .hospital-doc{
+	display: block;
+    padding: 1.49333rem 0 .13333rem;
+    float: left;
+    width: 49%;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-position: center .26667rem;
+    font-size: .37333rem;
+    color: #323232;
+}
+.sick-doc{
+	border-right: 1px solid #f4f4f4;
+    background-image: url("../image/下载 (6).png");
+    background-size: .85333rem;
+}
+.hospital-doc{
+	background-image: url("../image/下载 (7).png");
+	background-size: 1.01333rem;
+}
+.pic-list{
+	margin-bottom: 0.26667rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+.swiper-container{
+	position: relative;
+    height: 2.77333rem;
+    width: 12.2rem;
+    overflow: hidden; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide{
+	display: block;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	/*background-position: auto;*/
+}
+.swiper-pagination{
+	position: absolute;
+	/*display: inline-block; */
+    width: auto;
+    left: auto;
+    right: 0.26667rem;
+    bottom: 0;
+    z-index: 10;
+}
+.swiper-pagination-bullet{
+    display: inline-block; 
+    height: .16rem;
+    width: .16rem;
+    margin: 0 .08rem;
+    background:red;
+    opacity: .5;
+    border-radius: 100%;
+}
+/*.rounder{
+    display: inline-block; 
+	height: .16rem;
+    width: .16rem;
+    margin: 0 .08rem;
+    background:red;
+    opacity: .5;
+    border-radius: 100%;
+}
+.rounderon{
+    opacity: 1;
+}*/
+.classic{
+	display: block;
+	font-size: .42667rem;
+    color: #323232;
+    font-weight: 400;
+    padding: .32rem;
+    background-color: #fff;
+    margin-top: .26667rem;
+}
+.hot-logo{
+	display: inline-block;
+    vertical-align: super;
+    margin-left: .05333rem;
+	width: .8rem;
+    height: .29333rem;
+    background: url("../image/下载 (8).png");
+    background-repeat: no-repeat;
+    /*background-position: left top;*/
+    background-size: .82667rem auto;
+}
+.more{
+	display: block;
+	float: right;
+    font-size: .37333rem;
+    padding-top: .13333rem;
+    padding-right: .32rem;
+    color: #999;
+    text-decoration: none;
+    background: url("../image/下载 (9).png");
+    background-repeat: no-repeat;
+    background-position: right .16rem;
+    background-size: .16rem auto;
+    line-height: 1;
+}
+.ask{
+	font-size: .37333rem;
+    color: #323232;
+    background-color: #fff;
+}
+/*.first{
+	 border-top: 1px solid #f1f1f1;
+}*/
+.ask-list{
+	display: block;
+	border-top: 1px solid #f1f1f1;
+    padding: .32rem .32rem .4rem;
+}
+.title{
+	/*font-weight: 400;*/
+	font-size: .47333rem;
+    margin-bottom: .13333rem;
+    line-height: .42667rem;
+    color: #323232;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;	
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.health-title{
+	font-weight: 400;
+}
+.title-logo{
+	display: inline-block;
+	font-size: .34667rem;
+    color: #fff;
+    width: .42667rem;
+    /*height: 100%;*/
+    margin-bottom: .13333rem;
+    background-color: #ffa800;
+    text-align: center;
+    font-weight: 400;
+    margin-right: .10667rem;
+    border-radius: .05333rem;
+}
+.user-title{
+	font-size: .38333rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #323232;
+    margin-left: 0.653333rem;
+    line-height: 0.56rem;
+}
+.sick-list ul{
+	padding: .13333rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+.sick-list ul li{
+	float: left;
+    padding: .13333rem .18667rem;
+    margin: .18667rem .26667rem;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    border-radius: .05333rem;
+}
+.sick-list>ul>li>a{
+	display: block;
+	/*color:　red;*/
+	font-size: 0.40333rem;
+}
+.health{
+	padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+.health-list{
+	display: block;
+    padding: .53333rem .4rem;
+    overflow: hidden;
+    height: 2rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+.health-list img{
+	float: left;
+    margin-right: .26667rem;
+    height: 2rem;
+    width: 2.4rem;
+}
+.health-right{
+	height: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+.health-foot{
+	position: absolute;
+    height: 0.7rem;
+    line-height: .48rem;
+    overflow: hidden;
+    bottom: 0;
+}
+.health-foot span{
+	font-size: .34667rem;
+    color: #999;
+    margin-right: .13333rem;
+}
+.footer{
+	color: #9b9b9b;
+    font-size: 12px;
+    padding: .4rem;
+    background-color: #3a3a3b;
+    text-align: center;
+}
+.footer img{
+	display: block;
+    width: 2.53333rem;
+    margin: 0 auto .4rem;
+}
+.footer p{
+	line-height: 1.2;
+    margin-bottom: .13333rem;
+}
